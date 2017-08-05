@@ -6,7 +6,7 @@ function mifuncion(validar:boolean) {
   let a = 1;
 
   if (validar) {
-    // Se puede acceder a 'a' ya que es parte del bloque.
+    // Se puede acceder a la variable 'a' ya que es parte del bloque.
     let b = a + 1;
   }
 
