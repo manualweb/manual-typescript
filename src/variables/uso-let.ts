@@ -11,5 +11,5 @@ function mifuncion(validar:boolean) {
   }
 
   // Ya no hay acceso a la variable 'b'
-  return b;
+  // return b;
 }
