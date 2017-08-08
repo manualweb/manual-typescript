@@ -10,4 +10,9 @@ namespace ArraySoloLectura {
   // Si que podemos leer
   console.log(miarray[2]);
 
+  // Podríamos acceder a los valores de solo lectura realizando un type assertion
+  // sobre el array de solo lectura.
+  let miarray2 = <number[]>miarray;
+  miarray2[1] = 5;
+
 }
