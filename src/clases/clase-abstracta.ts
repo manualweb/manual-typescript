@@ -8,6 +8,8 @@ namespace ClaseAbstracta {
     getArea():number {
       return this.area;
     }
+    abstract getInfo():string;
+
   }
 
   class Cuadrado extends Figura {
@@ -16,6 +18,9 @@ namespace ClaseAbstracta {
       super();
       this.lado = lado;
       this.area = this.lado*2;
+    }
+    getInfo() {
+      return "Cuadrado de lado " + this.lado;
     }
   }
 
